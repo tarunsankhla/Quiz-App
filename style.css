@@ -10,11 +10,16 @@
 html{
     font-size: 62.5%;
 }
+
+body{
+    background-color:  rgb(53, 53, 80);
+    color: white;
+}
 :root{
     --bg-color:rgb(249 250 251);
     --container-bg-color: #f1f3f3;
     --banner-bg-color:#d4d9dd;
-    --cart-button-color : rgb(53, 53, 80);
+    --cart-button-color : #1E293B;
     --border-radius:7px;
 }
 body::-webkit-scrollbar{
@@ -34,13 +39,15 @@ body::-webkit-scrollbar:hover{
     cursor: pointer;
 }
 .navbar{
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: 1rem;
+    background-color: #1E293B;
+    color: white;
 }
 
 .navbar .project-title{
@@ -48,7 +55,12 @@ body::-webkit-scrollbar:hover{
     text-decoration: none;
     font-size: 3rem;
     font-weight: 700;
-    color: rgb(25, 1, 44);
+    /* color: rgb(25, 1, 44); */
+    color: white;
+}
+
+.navbar .project-title:hover{
+    transform: scale(1.05);
 }
 
 .navbar-action{
@@ -67,4 +79,24 @@ body::-webkit-scrollbar:hover{
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+}
+
+.btn-login{
+    border: none;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-text{
+    font-size: 2rem;
+    color: #d4d9dd;
+    text-decoration: none;
+}
+
+.navbar-text:hover{
+    color: aliceblue;
+    transform: scale(0.98);
 }
