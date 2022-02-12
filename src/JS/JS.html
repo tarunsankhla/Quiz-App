@@ -8,6 +8,7 @@
     rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://tangent-ui.netlify.app/components/component.css" referrerpolicy="no-referrer"> -->
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="JS.css">
     <title>Quiz</title>
 </head>
 <body>
@@ -21,20 +22,58 @@
             <a class="btn btn-link navbar-text">Rules</a>
         </div>
     </div>
-  <div class="container">
-       <h1>JavaScript</h1>
-    <div class="card">
-      
-        <div class="card-content">
-            <div class="card-title">
-                <h1>JavaScript</h1>
-                <h3>7 Questions</h3>
-            </div>   
-            <div class="card-body">
-                Duct tape of the Internet.
+  <div class="js-container">
+       <h1>JavaScript Quiz</h1>
+        <div class="quiz-container">
+            <div class="quiz-question">What is the output of the following code snippet?<br/>
+                <span class="code-snippet"> print(NaN === NaN);</span>
             </div>
-        </div> 
-    </div>
+            <div class="quiz-answer">
+                <button class="btn btn-sucess">true</button>
+                <button class="btn btn-warning">false</button>
+                <button class="btn">undefined</button>
+                <button class="btn">Error</button>
+                <!-- <input type="radio" id="true" name="js-question1" value="true"
+                       checked>
+                <label for="true">true</label>
+              </div>
+              
+              <div class="quiz-answer">
+                <input type="radio" id="false" name="js-question1" value="false">
+                <label for="false">false</label>
+              </div>
+              
+              <div class="quiz-answer">
+                <input type="radio" id="undefined" name="js-question1" value="undefined">
+                <label for="undefined">undefined</label>
+              </div>
+              <div class="quiz-answer">
+                <input type="radio" id="Error" name="js-question1" value="Error">
+                <label for="Error">Error</label> -->
+              </div>
+        </div>    
+        <div class="quiz-container">
+            <div class="quiz-question">What will be the output of the following code snippet?<br/>
+                <span class="code-snippet">print(typeof(NaN));</span>
+            </div>
+            <div class="quiz-answer">
+                <button class="btn btn-warning">Object</button>
+                <button class="btn btn-sucess">Number</button>
+                <button class="btn">String</button>
+                <button class="btn">None of the above</button>
+              </div>
+        </div>    
+        <div class="quiz-container">
+            <div class="quiz-question">
+                The 3 basic object attributes in Javascript are?
+            </div>
+            <div class="quiz-answer">
+                <button class="btn btn-warning">Class, prototype, objects' parameters.</button>
+                <button class="btn btn-sucess">Class, prototype, object's extensible flag.</button>
+                <button class="btn">Class, parameters, object's extensible flag.</button>
+                <button class="btn btn-sucess">Classes, Native object, and Interfaces and Object's extensible flag.</button>
+              </div>
+        </div>    
   </div>
 </body>
 </html>
