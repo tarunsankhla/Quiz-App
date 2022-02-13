@@ -19,6 +19,8 @@ body{
     --bg-color:rgb(249 250 251);
     --container-bg-color: #f1f3f3;
     --banner-bg-color:#d4d9dd;
+
+    --card-bg-color:#1E293B;
     --cart-button-color : #1E293B;
     --border-radius:7px;
 }
@@ -106,7 +108,7 @@ body::-webkit-scrollbar:hover{
 }
 
 .card{
-    background-color: #1E293B;
+    background-color: var(--card-bg-color);
     flex-grow: 1;
     /* width: 40%; */
     margin: 1rem 3rem;
