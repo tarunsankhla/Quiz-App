@@ -1,0 +1,43 @@
+@import url(../../style.css);
+
+@import url(../../style.css);
+
+.css-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz-answer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.quiz-container{
+    padding: 2rem;
+    line-height: 1rem;
+    font-size: 2rem;
+
+    width: 80%;
+}
+
+.quiz-answer button{
+    padding: 1rem;
+    width: 100%;
+}
+
+.quiz-question{
+    margin: auto;
+    text-align: center;
+    line-height: 3rem;
+    word-break: break-word;
+}
+
+.code-snippet{
+display: inline-block;
+    background-color: gray;
+    padding: 1rem;
+}

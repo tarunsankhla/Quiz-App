@@ -19,6 +19,8 @@ body{
     --bg-color:rgb(249 250 251);
     --container-bg-color: #f1f3f3;
     --banner-bg-color:#d4d9dd;
+
+    --card-bg-color:#1E293B;
     --cart-button-color : #1E293B;
     --border-radius:7px;
 }
@@ -41,13 +43,14 @@ body::-webkit-scrollbar:hover{
 .navbar{
     /* background-color: white; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 2rem;
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: 1rem;
     background-color: #1E293B;
     color: white;
+    padding-left: 3rem;
 }
 
 .navbar .project-title{
@@ -72,13 +75,16 @@ body::-webkit-scrollbar:hover{
 
 
 .container{
-    height: 100vh;
+    height: 80vh;
+    margin-top: 2rem;
     width: 100%;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 
 .btn-login{
@@ -99,4 +105,23 @@ body::-webkit-scrollbar:hover{
 .navbar-text:hover{
     color: aliceblue;
     transform: scale(0.98);
+}
+
+.card{
+    background-color: var(--card-bg-color);
+    flex-grow: 1;
+    /* width: 40%; */
+    margin: 1rem 3rem;
+    height: 50vh;
+    text-decoration: none;
+    color: white;
+}
+
+.card:hover{
+    transform: scale(0.98);
+    transition: transform 1s;
+}
+
+.card-content{
+    background-color: transparent;
 }
