@@ -1,12 +1,14 @@
 @import url(../../style.css);
 
-@import url(../../style.css);
 
 .css-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
 }
 
 .quiz-answer{
@@ -20,8 +22,8 @@
     padding: 2rem;
     line-height: 1rem;
     font-size: 2rem;
-
-    width: 80%;
+    width: 70%;
+    margin: auto;
 }
 
 .quiz-answer button{
@@ -36,8 +38,45 @@
     word-break: break-word;
 }
 
+.btn-hover:active{
+    border: none;
+}
+
+.btn-icon{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.btn-outline{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.btn-icon:hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+.btn-hover:hover{
+    background-color: var(--success-hover-color);
+}
+
+.btn-outline:hover{
+    background-color: var(--warning-hover-color);
+}
+
 .code-snippet{
 display: inline-block;
-    background-color: gray;
+    background-color: var(--gray);
     padding: 1rem;
+}
+
+.score{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.quiz-rules-title{
+    margin: 3rem 0;
 }
