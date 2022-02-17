@@ -23,8 +23,6 @@
     line-height: 1rem;
     font-size: 2rem;
     width: 70%;
-    /* align-content: center; */
-    /* justify-content: center; */
     margin: auto;
 }
 
@@ -70,7 +68,7 @@
 
 .code-snippet{
 display: inline-block;
-    background-color: gray;
+    background-color: var(--gray);
     padding: 1rem;
 }
 
