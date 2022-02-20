@@ -19,7 +19,7 @@ body{
     --bg-color:rgb(249 250 251);
     --container-bg-color: #f1f3f3;
     --banner-bg-color:#d4d9dd;
-
+    --text-bg-color:#606163;
     --card-bg-color:#1E293B;
     --cart-button-color : #1E293B;
 
@@ -100,10 +100,18 @@ body::-webkit-scrollbar:hover{
     height: fit-content;
     align-items: center;
     text-decoration: none;
+    background-color: transparent;
+    color: var(--banner-bg-color);
 }
+
+.btn-login:hover{
+    transform: scale(1.1);
+    opacity: 1.1;
+}
+
 .navbar-text{
     font-size: 2rem;
-    color: #d4d9dd;
+    color: var(--banner-bg-color);
     text-decoration: none;
 }
 
@@ -116,7 +124,7 @@ body::-webkit-scrollbar:hover{
     background-color: var(--card-bg-color);
     flex-grow: 1;
     margin: 1rem 3rem;
-    height: 50vh;
+    min-height: 50vh;
     text-decoration: none;
     color: white;
 }
@@ -128,4 +136,8 @@ body::-webkit-scrollbar:hover{
 
 .card-content{
     background-color: transparent;
+}
+
+footer{
+    margin-bottom: 2rem;
 }
