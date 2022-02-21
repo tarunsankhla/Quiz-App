@@ -91,3 +91,10 @@ display: inline-block;
 .quiz-rules-title{
     margin: 3rem 0;
 }
+
+
+@media screen and (max-width: 800px) {
+    .quiz-container{
+        width: 100%;
+    }
+}

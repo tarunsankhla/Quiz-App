@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;   
+    color: var(--text-bg-color);
+    padding: 2rem 0;
+}
+
+.settings-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--card-bg-color);
+    width: 80%;
+    height: fit-content;
+    box-shadow: 0 0 5px 0 var(--box-shadow );
+    border-radius: var(--border-radius);
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: var(--banner-bg-color);
+}
+
+.list-body-item{
+    width: 80vw;
+    display: flex;
+    justify-content:  space-between;
+    padding: 1rem 2rem
+}
+
+.list-body-item:hover{
+    background-color: transparent;
+    transform: scale(1.01);
+    opacity: 1.1;
+}
