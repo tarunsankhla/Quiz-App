@@ -46,6 +46,7 @@
 .login-action-btn   {
     display:block;
     font-size: 2rem;
+    text-decoration: none;
 }
 
 
@@ -73,4 +74,10 @@
 
 .project-title{
     color: var(--text-bg-color);
+}
+
+@media screen and (max-width: 800px) {
+    .login-container{
+        width: 100vw;
+    }
 }

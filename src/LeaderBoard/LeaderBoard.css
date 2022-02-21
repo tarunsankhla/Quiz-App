@@ -28,3 +28,7 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+
+.list-body-item:hover{
+    background-color: transparent;
+}

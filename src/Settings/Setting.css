@@ -16,7 +16,7 @@ main{
     background-color: var(--card-bg-color);
     width: 80%;
     height: fit-content;
-    box-shadow: 0 0 5px 0 #e0e5e5;
+    box-shadow: 0 0 5px 0 var(--box-shadow );
     border-radius: var(--border-radius);
     font-size: 1.5rem;
     padding: 2rem;
