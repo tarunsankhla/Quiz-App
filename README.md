@@ -1,4 +1,4 @@
-# Quiz-App
+# Frontend-Ready
 
 
 It's a Quiz application based on Frontend interview preparation - currently, it only features layouts created by HTML and CSS; further it will get integrated with JS
@@ -7,7 +7,7 @@ Live : https://frontendready.netlify.app/
 
 
 
- <p align="center"> <img src="https://github.com/tarunsankhla/Ecommerce/blob/master/asset/img/logo.png" alt="logoImage" width="200px" height="200px" /></p>
+ <p align="center"> <img src="https://github.com/tarunsankhla/Quiz-App/blob/master/asset/Img/logo_3.png" alt="logoImage" width="200px" height="200px" /></p>
  <br/>
  
  ![Forks](https://img.shields.io/github/forks/tarunsankhla/Quiz-App) &nbsp;&nbsp;&nbsp;
@@ -15,7 +15,7 @@ Live : https://frontendready.netlify.app/
 [![Netlify Status](https://api.netlify.com/api/v1/badges/036e1536-a87b-4612-8b64-03434f7d12f1/deploy-status)](https://app.netlify.com/sites/frontendready/deploys) &nbsp;&nbsp;&nbsp;
  <hr/>
  
-  <p align="center"> <img src="https://github.com/tarunsankhla/Ecommerce/blob/master/asset/img/logo_banner.png" alt="logoImage" width="100%" height="auto" /></p>
+  <p align="center"> <img src="https://github.com/tarunsankhla/Quiz-App/blob/master/asset/Img/logo_banner_2.png" alt="logoImage" width="100%" height="auto" /></p>
  <br/>
 
 
@@ -24,12 +24,13 @@ Live : https://frontendready.netlify.app/
 
 Currently, the application is under development and we have only layout screen:
 
-- Home, [Feetz Home](https://feetz.netlify.app/index.html)
-- Products, [Feetz Products](https://feetz.netlify.app/src/productlistpage/productlistpage)
-- Cart Management, [Feetz Cart](https://feetz.netlify.app/src/cartpage/cartpage)
-- Wishlist Management, [Feetz Wishlist](https://feetz.netlify.app/src/wishlistpage/wishlistpage)
-- Log In, [Feetz Log In](https://feetz.netlify.app/src/login/login)
-- Sign Up, [Feetz Sign Up](https://feetz.netlify.app/src/signup/signup)
+- Home, [Frontend-Ready Home](https://frontendready.netlify.app/)
+- Quiz Rules Page, [Frontend-Ready Quiz 1 rules](https://frontendready.netlify.app/src/css/cssrules), [Frontend-Ready Quiz 2 rules](https://frontendready.netlify.app/src/js/jsrules)
+- Quiz Question Page, [Frontend-Ready Quiz 1 Question](https://frontendready.netlify.app/src/css/css), [Frontend-Ready Quiz 2 Question](https://frontendready.netlify.app/src/js/js)
+- Quiz Result Page, [Frontend-Ready Quiz 1 Result](https://frontendready.netlify.app/src/css/cssresult), [Frontend-Ready Quiz 2 Result](https://frontendready.netlify.app/src/js/jsresult)
+- User Setting, [Frontend-Ready User Settings](https://frontendready.netlify.app/src/settings/setting)
+- Log In, [Frontend-Ready Log In](https://frontendready.netlify.app/src/login/login)
+- LeaderBoard, [Frontend-Ready LeaderBoard](https://frontendready.netlify.app/src/leaderboard/leaderboard)
 
 
 <hr/>
