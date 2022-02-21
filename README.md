@@ -25,9 +25,15 @@ Live : https://frontendready.netlify.app/
 Currently, the application is under development and we have only layout screen:
 
 - Home, [Frontend-Ready Home](https://frontendready.netlify.app/)
-- Quiz Rules Page, [Frontend-Ready Quiz 1 rules](https://frontendready.netlify.app/src/css/cssrules), [Frontend-Ready Quiz 2 rules](https://frontendready.netlify.app/src/js/jsrules)
-- Quiz Question Page, [Frontend-Ready Quiz 1 Question](https://frontendready.netlify.app/src/css/css), [Frontend-Ready Quiz 2 Question](https://frontendready.netlify.app/src/js/js)
-- Quiz Result Page, [Frontend-Ready Quiz 1 Result](https://frontendready.netlify.app/src/css/cssresult), [Frontend-Ready Quiz 2 Result](https://frontendready.netlify.app/src/js/jsresult)
+- Quiz Rules Page,
+   - [Frontend-Ready Quiz 1 rules](https://frontendready.netlify.app/src/css/cssrules), 
+   - [Frontend-Ready Quiz 2 rules](https://frontendready.netlify.app/src/js/jsrules)
+- Quiz Question Page,
+  - [Frontend-Ready Quiz 1 Question](https://frontendready.netlify.app/src/css/css),
+  - [Frontend-Ready Quiz 2 Question](https://frontendready.netlify.app/src/js/js)
+- Quiz Result Page, 
+  - [Frontend-Ready Quiz 1 Result](https://frontendready.netlify.app/src/css/cssresult), 
+  - [Frontend-Ready Quiz 2 Result](https://frontendready.netlify.app/src/js/jsresult)
 - User Setting, [Frontend-Ready User Settings](https://frontendready.netlify.app/src/settings/setting)
 - Log In, [Frontend-Ready Log In](https://frontendready.netlify.app/src/login/login)
 - LeaderBoard, [Frontend-Ready LeaderBoard](https://frontendready.netlify.app/src/leaderboard/leaderboard)
