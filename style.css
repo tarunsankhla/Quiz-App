@@ -161,6 +161,9 @@ footer{
     background-color: var(--dark-theme-bg);
     margin-bottom: 2px solid white;
     padding: 1rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -171,7 +174,23 @@ footer{
     text-decoration: none;
 }
 
-/* .dark-mode footer{
-    color: #d3e7e1;
-    background-color: var(--dark-theme-bg);
-}  */
+
+
+/* navbar icon */
+
+.nav-icon{
+    text-decoration: none;
+    padding: 0 0.5rem;
+    background-color:  transparent;
+    color: var(--boldy-mid-gray);
+}
+.nav-icon:hover{
+    transform: scale(1.05);
+    opacity: 0.5;
+}
+
+	
+.dark-mode .nav-icon{
+    background-color:  transparent;
+    color: var(--boldy-mid-gray);
+}
