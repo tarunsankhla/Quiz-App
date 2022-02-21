@@ -7,7 +7,7 @@ Live : https://frontendready.netlify.app/
 
 
 
- <p align="center"> <img src="https://github.com/tarunsankhla/Quiz-App/blob/master/asset/Img/logo_3.png" alt="logoImage" width="200px" height="200px" /></p>
+ <p align="center"> <img src="https://github.com/tarunsankhla/Quiz-App/blob/master/asset/Img/logo_3.png" alt="logoImage" width="100%" height="200px" /></p>
  <br/>
  
  ![Forks](https://img.shields.io/github/forks/tarunsankhla/Quiz-App) &nbsp;&nbsp;&nbsp;
